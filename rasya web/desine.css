@@ -1,0 +1,40 @@
+body {
+  background-color: black;
+  background-image: url("2532408.jpg");/* gambar ada di folder 'images' */
+  background-size: cover;                 /* menutupi seluruh layar */
+  background-repeat: no-repeat;           /* tidak diulang */
+  background-position: center;            /* posisi di tengah */
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+}
+nav a {
+  display: inline-block;       /* biar bisa diberi padding & border */
+  padding: 8px 12px;           /* jarak dalam kotak */
+  margin: 5px;                 /* jarak antar kotak */
+  border: 2px solid #892c2c;   /* garis tepi kotak */
+  border-radius: 5px;          /* sudut agak melengkung */
+  text-decoration: none;       /* hilangkan garis bawah */
+  color: #333;                 /* warna teks */
+}
+
+nav a:hover {
+  background-color: #892c2c;   /* warna isi saat hover */
+  color: #fff;                 /* teks jadi putih saat hover */
+}
+.judul {
+  display: flex;              /* sejajarkan gambar dan teks */
+  align-items: center;        /* vertikal rata tengah */
+  justify-content: center;    /* horizontal rata tengah */
+  padding: 40px;              /* jarak dalam kotak */
+  background: #892c2c;        /* warna latar belakang */
+  color: #fff;
+}
+
+.judul .logo {
+  width: 100px;                /* ukuran logo */
+  height: auto;
+  margin-right: 25px;         /* jarak antara logo dan teks */
+}
+/* sudah aku atur semua tinggal pusing nulis */
